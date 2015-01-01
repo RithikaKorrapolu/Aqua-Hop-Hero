@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD3DF1A71A55A90000B626E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3DF1A61A55A90000B626E7 /* main.m */; };
+		FD3DF1AA1A55A90000B626E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3DF1A91A55A90000B626E7 /* AppDelegate.m */; };
+		FD3DF1AD1A55A90000B626E7 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3DF1AC1A55A90000B626E7 /* GameScene.m */; };
+		FD3DF1AF1A55A90000B626E7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FD3DF1AE1A55A90000B626E7 /* GameScene.sks */; };
+		FD3DF1B21A55A90000B626E7 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3DF1B11A55A90000B626E7 /* GameViewController.m */; };
+		FD3DF1B51A55A90000B626E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD3DF1B31A55A90000B626E7 /* Main.storyboard */; };
+		FD3DF1B71A55A90100B626E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD3DF1B61A55A90100B626E7 /* Images.xcassets */; };
+		FD3DF1BA1A55A90100B626E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD3DF1B81A55A90100B626E7 /* LaunchScreen.xib */; };
+		FD3DF1C61A55A90100B626E7 /* Aqua_Hop_HeroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3DF1C51A55A90100B626E7 /* Aqua_Hop_HeroTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD3DF1C01A55A90100B626E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD3DF1991A55A90000B626E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD3DF1A01A55A90000B626E7;
+			remoteInfo = "Aqua Hop Hero";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD3DF1A11A55A90000B626E7 /* Aqua Hop Hero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aqua Hop Hero.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD3DF1A51A55A90000B626E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD3DF1A61A55A90000B626E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD3DF1A81A55A90000B626E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD3DF1A91A55A90000B626E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD3DF1AB1A55A90000B626E7 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		FD3DF1AC1A55A90000B626E7 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		FD3DF1AE1A55A90000B626E7 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		FD3DF1B01A55A90000B626E7 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		FD3DF1B11A55A90000B626E7 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		FD3DF1B41A55A90000B626E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD3DF1B61A55A90100B626E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD3DF1B91A55A90100B626E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FD3DF1BF1A55A90100B626E7 /* Aqua Hop HeroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aqua Hop HeroTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD3DF1C41A55A90100B626E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD3DF1C51A55A90100B626E7 /* Aqua_Hop_HeroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Aqua_Hop_HeroTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD3DF19E1A55A90000B626E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3DF1BC1A55A90100B626E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD3DF1981A55A90000B626E7 = {
+			isa = PBXGroup;
+			children = (
+				FD3DF1A31A55A90000B626E7 /* Aqua Hop Hero */,
+				FD3DF1C21A55A90100B626E7 /* Aqua Hop HeroTests */,
+				FD3DF1A21A55A90000B626E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD3DF1A21A55A90000B626E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD3DF1A11A55A90000B626E7 /* Aqua Hop Hero.app */,
+				FD3DF1BF1A55A90100B626E7 /* Aqua Hop HeroTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD3DF1A31A55A90000B626E7 /* Aqua Hop Hero */ = {
+			isa = PBXGroup;
+			children = (
+				FD3DF1A81A55A90000B626E7 /* AppDelegate.h */,
+				FD3DF1A91A55A90000B626E7 /* AppDelegate.m */,
+				FD3DF1AB1A55A90000B626E7 /* GameScene.h */,
+				FD3DF1AC1A55A90000B626E7 /* GameScene.m */,
+				FD3DF1AE1A55A90000B626E7 /* GameScene.sks */,
+				FD3DF1B01A55A90000B626E7 /* GameViewController.h */,
+				FD3DF1B11A55A90000B626E7 /* GameViewController.m */,
+				FD3DF1B31A55A90000B626E7 /* Main.storyboard */,
+				FD3DF1B61A55A90100B626E7 /* Images.xcassets */,
+				FD3DF1B81A55A90100B626E7 /* LaunchScreen.xib */,
+				FD3DF1A41A55A90000B626E7 /* Supporting Files */,
+			);
+			path = "Aqua Hop Hero";
+			sourceTree = "<group>";
+		};
+		FD3DF1A41A55A90000B626E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD3DF1A51A55A90000B626E7 /* Info.plist */,
+				FD3DF1A61A55A90000B626E7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD3DF1C21A55A90100B626E7 /* Aqua Hop HeroTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD3DF1C51A55A90100B626E7 /* Aqua_Hop_HeroTests.m */,
+				FD3DF1C31A55A90100B626E7 /* Supporting Files */,
+			);
+			path = "Aqua Hop HeroTests";
+			sourceTree = "<group>";
+		};
+		FD3DF1C31A55A90100B626E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD3DF1C41A55A90100B626E7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD3DF1A01A55A90000B626E7 /* Aqua Hop Hero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD3DF1C91A55A90100B626E7 /* Build configuration list for PBXNativeTarget "Aqua Hop Hero" */;
+			buildPhases = (
+				FD3DF19D1A55A90000B626E7 /* Sources */,
+				FD3DF19E1A55A90000B626E7 /* Frameworks */,
+				FD3DF19F1A55A90000B626E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aqua Hop Hero";
+			productName = "Aqua Hop Hero";
+			productReference = FD3DF1A11A55A90000B626E7 /* Aqua Hop Hero.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD3DF1BE1A55A90100B626E7 /* Aqua Hop HeroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD3DF1CC1A55A90100B626E7 /* Build configuration list for PBXNativeTarget "Aqua Hop HeroTests" */;
+			buildPhases = (
+				FD3DF1BB1A55A90100B626E7 /* Sources */,
+				FD3DF1BC1A55A90100B626E7 /* Frameworks */,
+				FD3DF1BD1A55A90100B626E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD3DF1C11A55A90100B626E7 /* PBXTargetDependency */,
+			);
+			name = "Aqua Hop HeroTests";
+			productName = "Aqua Hop HeroTests";
+			productReference = FD3DF1BF1A55A90100B626E7 /* Aqua Hop HeroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD3DF1991A55A90000B626E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Rithika Korrapolu";
+				TargetAttributes = {
+					FD3DF1A01A55A90000B626E7 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					FD3DF1BE1A55A90100B626E7 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = FD3DF1A01A55A90000B626E7;
+					};
+				};
+			};
+			buildConfigurationList = FD3DF19C1A55A90000B626E7 /* Build configuration list for PBXProject "Aqua Hop Hero" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD3DF1981A55A90000B626E7;
+			productRefGroup = FD3DF1A21A55A90000B626E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD3DF1A01A55A90000B626E7 /* Aqua Hop Hero */,
+				FD3DF1BE1A55A90100B626E7 /* Aqua Hop HeroTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD3DF19F1A55A90000B626E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3DF1BA1A55A90100B626E7 /* LaunchScreen.xib in Resources */,
+				FD3DF1B71A55A90100B626E7 /* Images.xcassets in Resources */,
+				FD3DF1AF1A55A90000B626E7 /* GameScene.sks in Resources */,
+				FD3DF1B51A55A90000B626E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3DF1BD1A55A90100B626E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD3DF19D1A55A90000B626E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3DF1B21A55A90000B626E7 /* GameViewController.m in Sources */,
+				FD3DF1AA1A55A90000B626E7 /* AppDelegate.m in Sources */,
+				FD3DF1AD1A55A90000B626E7 /* GameScene.m in Sources */,
+				FD3DF1A71A55A90000B626E7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3DF1BB1A55A90100B626E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3DF1C61A55A90100B626E7 /* Aqua_Hop_HeroTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD3DF1C11A55A90100B626E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD3DF1A01A55A90000B626E7 /* Aqua Hop Hero */;
+			targetProxy = FD3DF1C01A55A90100B626E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD3DF1B31A55A90000B626E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD3DF1B41A55A90000B626E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD3DF1B81A55A90100B626E7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD3DF1B91A55A90100B626E7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD3DF1C71A55A90100B626E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD3DF1C81A55A90100B626E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD3DF1CA1A55A90100B626E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Aqua Hop Hero/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD3DF1CB1A55A90100B626E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Aqua Hop Hero/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD3DF1CD1A55A90100B626E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Aqua Hop HeroTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aqua Hop Hero.app/Aqua Hop Hero";
+			};
+			name = Debug;
+		};
+		FD3DF1CE1A55A90100B626E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Aqua Hop HeroTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aqua Hop Hero.app/Aqua Hop Hero";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD3DF19C1A55A90000B626E7 /* Build configuration list for PBXProject "Aqua Hop Hero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD3DF1C71A55A90100B626E7 /* Debug */,
+				FD3DF1C81A55A90100B626E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD3DF1C91A55A90100B626E7 /* Build configuration list for PBXNativeTarget "Aqua Hop Hero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD3DF1CA1A55A90100B626E7 /* Debug */,
+				FD3DF1CB1A55A90100B626E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD3DF1CC1A55A90100B626E7 /* Build configuration list for PBXNativeTarget "Aqua Hop HeroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD3DF1CD1A55A90100B626E7 /* Debug */,
+				FD3DF1CE1A55A90100B626E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD3DF1991A55A90000B626E7 /* Project object */;
+}
